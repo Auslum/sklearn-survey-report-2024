@@ -1,3 +1,3 @@
 [build]
-  command = "pip install myst && myst build"
+  command = "npm install -g mystmd && myst build --html"
   publish = "_build/html"
